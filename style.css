@@ -47,21 +47,26 @@ header nav ul {
   margin-right: 400px;
 }
 header nav ul li {
-  margin-left: 80px;
+  margin-left: 40px;
 }
 header nav ul li a {
   color: rgb(0, 0, 0);
   text-decoration: none;
+  border: 1px solid transparent;
+  padding: 6px 10px;
+  font-size: 15px;
+  margin: 0px;
+  
 }
 header nav ul li a:hover {
   width: 40px;
   height: 40px;
-  padding: 5px 10px;
+  padding: 6px 10px;
   border: 1px solid #000000;
-  border-radius: 5px;
+  border-radius: 12px;
   color: #000000;
   background-color: #ffffff;
-   transform: scale(1.1);
+  
 }
 
 /* Footer */
